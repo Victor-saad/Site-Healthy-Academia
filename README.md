@@ -6,3 +6,5 @@ Para rodar esse projeto, favor digite:
 ```
 node script.js
 ```
+
+:)
