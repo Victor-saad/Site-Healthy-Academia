@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+    
+    footer {
+        border-top: 1px solid lightgray;
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .logoFooter {
+        width: 90%;
+        align-items: center;
+    }
+
+    .logoFooter img {
+        align-items: center;
+    }
+
+    .sinceFooter p {
+        text-align: center;
+    }
+
+    .addressFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allRightsFooter {
+        /* padding-top: 15px; */
+        text-align: center;
+    }
+}

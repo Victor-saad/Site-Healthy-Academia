@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+
+    main {
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        padding: 15px 0;
+    }
+
+    .quemSomos {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .textoQuemSomos {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .nossa_historia {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px; 
+        padding-top: 10px;      
+    }
+
+    /* .glide__arrows {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    } */
+
+    .glide__slide img {
+        width: 100%;
+    }
+
+    .glide__slide {
+        filter: blur(4px);
+        opacity: 1;
+        transition: .2 linear;
+    }
+  
+    .glide__slide--active {
+        opacity: 1;
+        filter: none;
+        transform: scale(1.4);
+    }
+
+    .glide__slides {
+        overflow: visible;
+    }
+
+
+    .fotoQuemSomos {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .localizacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iframeMap {
+        width: 100%;
+    }
+
+    table {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    table tr td {
+        text-align: center;
+        height: 30px
+    }
+
+    table tr td:first-child {
+        font-weight: 500;
+    }
+
+    .FAQLi {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FAQLiP {
+        border-bottom: 1px solid lightgray;
+        padding: 10px 0;
+    }
+
+    .FAQLiP:last-child {
+        border-bottom: none;
+    }
+
+    .FAQLi li {
+        width: 85%;
+        list-style: none;
+        font-weight: 500;
+        padding-left:5px;
+    }
+
+    .FAQLi img {
+        width: 15%;
+        height: 10px;
+    }
+
+    .FAQLiP p {
+        visibility: hidden;
+        height: 0;
+    }
+
